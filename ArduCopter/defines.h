@@ -115,6 +115,7 @@ enum control_mode_t {
     SMART_RTL =    21,  // SMART_RTL returns to home by retracing its steps
     FLOWHOLD  =    22,  // FLOWHOLD holds position with optical flow without rangefinder
     FOLLOW    =    23,  // follow attempts to follow another vehicle or ground station
+	DRAWSTAR  =    24,	// 学习增加的飞五角星航迹的模式（半径在mode_DrawStar.cpp文件中修改radius_cm即可）
 };
 
 enum mode_reason_t {
